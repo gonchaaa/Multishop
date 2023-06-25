@@ -15,7 +15,7 @@ namespace Multishop.Core.DataAccess.EntityFramework
         public void Add(TEntity entity)
         {
             using TContext context = new();
-            var addEntity= context.Add(entity);
+            var addEntity= context.Entry(entity);
             addEntity.State = EntityState.Added;
             context.SaveChanges();
         }

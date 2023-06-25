@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Multishop.Business\Multishop.Business.csproj" />
+    <ProjectReference Include="..\Multishop.DataAccess\Multishop.DataAccess.csproj" />
   </ItemGroup>
 
 </Project>

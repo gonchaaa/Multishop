@@ -22,6 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Multishop.Business\Multishop.Business.csproj" />
     <ProjectReference Include="..\Multishop.Core\Multishop.Core.csproj" />
     <ProjectReference Include="..\Multishop.Entities\Multishop.Entities.csproj" />
   </ItemGroup>

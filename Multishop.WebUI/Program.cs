@@ -1,6 +1,7 @@
 using Multishop.Business.Abstract;
 using Multishop.Business.Concrete;
-
+using Multishop.DataAccess.Abstract;
+using Multishop.DataAccess.Concrete.EntityFramework;
 
 var builder = WebApplication.CreateBuilder(args);
 
